@@ -100,7 +100,7 @@ function update_goods() {
                     <td>${i+1}</td>
                     <td class="price_name">${goods[i][1]}</td>
                     <td class="price_one">${goods[i][2]}</td>
-                    <td class="price_count>${goods[i][4]}</td>
+                    <td class="price_count">${goods[i][4]}</td>
                     <td class="price_discount"><input data-goodid="${goods[i][0]}" type="text" value="${goods[i][5]}" min="0" max="100"</td>
                     <td>${goods[i][6]}</td>
                     <td><button class="good_delete btn-danger" data-delete="${goods[i][0]}">&#10006;</button></td>
