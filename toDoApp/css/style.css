@@ -2,6 +2,13 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background: #e367ff;
+  background: -moz-linear-gradient(left,  #e367ff 0%, #be4eea 100%);
+  background: -webkit-linear-gradient(left,  #e367ff 0%,#be4eea 100%);
+  background: linear-gradient(to right,  #e367ff 0%,#be4eea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e367ff', endColorstr='#be4eea',GradientType=1 );
+}
 
 ul {
   padding: 0;
